@@ -28,9 +28,9 @@
         "name": "Wenlin Zhang"
       }
     ],
-    "concept_doi": null,
+    "concept_doi": "10.5281/zenodo.24412931",
     "current_version": 2,
-    "doi": null,
+    "doi": "10.5281/zenodo.24412932",
     "lean_source": {
       "revision": "92de86888730265f84e24d28bdb67546c543a966",
       "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
