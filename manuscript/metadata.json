@@ -1,0 +1,220 @@
+{
+  "id": "balaper-phi2period",
+  "revision": 2,
+  "problem_ids": [
+    "balaper-phi2period",
+    "balaper-a281181-phi2period",
+    "balaper-a281183-phi2period",
+    "balaper-a281184-phi2period",
+    "balaper-a281440-phi2period"
+  ],
+  "topic": "Bala's period conjectures, all-integral-exponent quadratic flows, and neighboring identities",
+  "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+  "creators": [
+    {
+      "name": "Ma, Haobo",
+      "affiliation": "ChronoAI Pte Ltd, Singapore"
+    },
+    {
+      "name": "Zhang, Wenlin",
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore"
+    }
+  ],
+  "abstract": "We give an alternative proof and an extension of Lien-Hung Su's theorem (31 October 2026, Theorem 3.2 and Corollary 3.3, doi:10.5281/zenodo.23835577) resolving Peter Bala's conjecture in OEIS A281180, Comments, revision 86, signed 18 February 2026, and its four companion conjectures. The proof begins with a uniform operator identity for every integral polynomial vector field P(z)d/dz with P(0)=1. For the quadratic flows S'=C^a, C'=S C^(a-1), we extend the eventual period phi(m)^2/2 to every integer a>=1, every integral polynomial observable at even derivative indices, and every m>=3. We give explicit starting indices, prove residue-row and derivative identities from the neighboring entries, and supply exact finite-matrix certificates for the source examples.",
+  "summary": "An alternative proof of Su's five-sequence theorem, extended to all integral exponents and polynomial observables, with explicit onsets, residue-row identities, neighboring formula corrections and exact numerical certificates.",
+  "license": "cc-by-4.0",
+  "evidence_url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean",
+  "prior_work": {
+    "author": "Lien-Hung Su",
+    "title": "Quadratic Derivations and Uniform Modular Periods for Six Inverse-Function Sequences",
+    "date": "2026-10-31",
+    "version": "v1",
+    "doi": "10.5281/zenodo.23835577",
+    "locator": "Theorem 3.2, Corollary 3.3, Propositions 3.4-3.6",
+    "relationship": "Su proves all five original conjectures, their half-square refinement for even exponents, the A281183 identity, the numerical examples, and a stronger theorem for A281428. The present note supplies an alternative polynomial-flow proof and extends the half-square and residue-row conclusions to all integral exponents and polynomial observables."
+  },
+  "posing_sources": [
+    {
+      "entry": "A281180",
+      "revision": 86,
+      "section": "Comments",
+      "poser": "Peter Bala",
+      "posing_date": "2026-02-18",
+      "url": "https://oeis.org/A281180"
+    },
+    {
+      "entry": "A281181",
+      "revision": 103,
+      "section": "Comments",
+      "poser": "Peter Bala",
+      "posing_date": "2026-02-16",
+      "url": "https://oeis.org/A281181"
+    },
+    {
+      "entry": "A281183",
+      "revision": 60,
+      "section": "Comments",
+      "poser": "Peter Bala",
+      "posing_date": "2026-02-16",
+      "url": "https://oeis.org/A281183"
+    },
+    {
+      "entry": "A281184",
+      "revision": 41,
+      "section": "Comments",
+      "poser": "Peter Bala",
+      "posing_date": "2026-02-16",
+      "url": "https://oeis.org/A281184"
+    },
+    {
+      "entry": "A281440",
+      "revision": 17,
+      "section": "Comments",
+      "poser": "Peter Bala",
+      "posing_date": "2026-02-19",
+      "url": "https://oeis.org/A281440"
+    }
+  ],
+  "formal_coverage": {
+    "source_revision": "92de86888730265f84e24d28bdb67546c543a966",
+    "declarations": [
+      {
+        "file": "AutonomousDerivationTotientSquarePeriod.lean",
+        "declaration": "D5.S1.Recurrence.Periodic.AutonomousDerivationTotientSquarePeriod.BalaTruncated.prime_power_derivative_period",
+        "statement": "For P(0)=1, all polynomial observables have derivative-index shift phi(p^r)^2 modulo p^r after derivative index p^(2r-1).",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/AutonomousDerivationTotientSquarePeriod.lean",
+        "source_sha256": "f4eda366bff95e56ba3e414b90f9c9a8b378cb469812ab689c6fb2d084b692f7"
+      },
+      {
+        "file": "BalaA281180TotientSquarePeriod.lean",
+        "declaration": "D5.S1.Recurrence.Periodic.BalaA281180TotientSquarePeriod.result",
+        "statement": "The source ODE, integer exponential coefficients and eventual phi(m)^2 period for A281180.",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean",
+        "source_sha256": "1df014892b9a2730991b6c232931fb4f66b33c4c3cbd591e09f318b8ffdfeda6"
+      },
+      {
+        "file": "BalaA281181TotientSquarePeriod.lean",
+        "declaration": "D5.S1.Recurrence.Periodic.BalaA281181TotientSquarePeriod.result",
+        "statement": "The C=cosh(H), H'=C^3 definition, integer coefficients and eventual phi(m)^2 period for A281181.",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281181TotientSquarePeriod.lean",
+        "source_sha256": "aa767d4b2db2627f9f33946debc40ef89b1b8f891bee38fff2c37d6b435cd090"
+      },
+      {
+        "file": "BalaA281183TotientSquarePeriod.lean",
+        "declaration": "D5.S1.Recurrence.Periodic.BalaA281183TotientSquarePeriod.result",
+        "statement": "The C^2 exponential coefficients and their eventual phi(m)^2 period for A281183.",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean",
+        "source_sha256": "e6ed6479e4fd08560ecb8286d3a243897c4784a13257116edc7a50c7a7b43210"
+      },
+      {
+        "file": "BalaA281184TotientSquarePeriod.lean",
+        "declaration": "D5.S1.Recurrence.Periodic.BalaA281184TotientSquarePeriod.result",
+        "statement": "The C^3 exponential coefficients, the logarithmic derivative identity and their eventual phi(m)^2 period for A281184.",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean",
+        "source_sha256": "4fae598be397455dc77eff81c9430bbe20aa963b9812dd93ba23a21ebc73509e"
+      },
+      {
+        "file": "BalaA281440TotientSquarePeriod.lean",
+        "declaration": "D5.S1.Recurrence.Periodic.BalaA281440TotientSquarePeriod.result",
+        "statement": "The C=cosh(H), H'=C^7 definition, integer coefficients and eventual phi(m)^2 period for A281440.",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean",
+        "source_sha256": "54ae109e2613df7392dce8dbf37b32f87d464a8268f51c75372642a3e96323c2"
+      }
+    ]
+  },
+  "written_coverage": [
+    "The arbitrary-integral-polynomial vector-field lemma, with P(0)=1.",
+    "The all-integral-exponent quadratic-flow theorem for every polynomial observable at even derivative indices, including its explicit J(m) onset.",
+    "The half-square period for all five original sequences and eight neighboring sequences, and the A281182 interleaving consequence.",
+    "The all-exponent finite-difference residue-row identity and its squarefree geometric specialization.",
+    "Bala's A281183 derivative identity; the affirmative answer to the A281436 secant-operator question.",
+    "The factorial normalization in A281428, with prior correction attributed to Su; the corrected A281427 and A281435 nested-derivative offsets.",
+    "The A394012 derivative-polynomial identity, the A391180 second-column formula and its explicit eventual period.",
+    "The Cayley-Hamilton implication for all numerical period, geometric-row and constant-tail certificates.",
+    "The common inverse representations and odd-exponent algebraic identities; the corrected x^5 coefficient of T_4 in A281181."
+  ],
+  "finite_coverage": {
+    "coefficient_terms_per_family": 21,
+    "oeis_comparison_terms_per_family": 8,
+    "main_ode_derivative_indices": [
+      0,
+      40
+    ],
+    "polynomial_operator_cases": 60,
+    "exact_period_certificates": 7,
+    "additional_congruence": "A281181(n) = 1 modulo 12 for every n>=0",
+    "quadratic_operator_cases": 108,
+    "finite_difference_operator_cases": 108,
+    "geometric_row_certificates": 5,
+    "additional_constant_tail": "A281184(n)=3 modulo 9 for every n>=1",
+    "neighboring_families": 8,
+    "neighboring_terms_per_family": 13,
+    "neighboring_oeis_prefix_terms": 8,
+    "secant_derivative_indices": [
+      0,
+      12
+    ],
+    "factorial_columns": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "factorial_derivative_indices": [
+      0,
+      12
+    ],
+    "triangle_rows": [
+      1,
+      12
+    ],
+    "inverse_series_degree": 13,
+    "algebraic_elimination_identities": 2,
+    "second_column_period_moduli": [
+      2,
+      15
+    ]
+  },
+  "additional_source_coverage": [
+    {
+      "source": "A281436, Formula, revision 10, 23 December 2025",
+      "status": "Answered: yes",
+      "scope": "The exact secant-operator formula for every n>=0."
+    },
+    {
+      "source": "A281428, Formula, revision 54, 22 January 2026",
+      "status": "Refuted-and-corrected",
+      "scope": "Include n! for ordinary coefficients; the correction is already stated by Su in Section 4."
+    },
+    {
+      "source": "A281427 and A281435, Formula, 22 December 2025",
+      "status": "Refuted-and-corrected",
+      "scope": "With f_0=1 and source offset one, replace f_(2n)(0) by f_(2n-2)(0)."
+    },
+    {
+      "source": "A394012 revision 47 and A391180 revision 71",
+      "status": "Proved",
+      "scope": "The derivative-polynomial triangle identity and its first two columns."
+    },
+    {
+      "source": "Eight neighboring inverse-function entries",
+      "status": "Not posed; proved",
+      "scope": "The half-square period consequences; no additional problem IDs are assigned."
+    },
+    {
+      "source": "A281428, Comments, revision 54, 3 March 2026",
+      "status": "Prior proof cited",
+      "scope": "Su's Theorem 4.1: vanishing away from 6 and an eventual totient period."
+    },
+    {
+      "source": "Common inverse formulas and the a=5,7 algebraic identities",
+      "status": "Proved",
+      "scope": "Consequences of the defining quadratic flow; no originality is assigned to the recorded identities."
+    },
+    {
+      "source": "A281181, Formula, 14 December 2025",
+      "status": "Refuted-and-corrected",
+      "scope": "The x^5 term of T_4 is 13*x^5/5!, not 13*x^5/6!."
+    }
+  ]
+}

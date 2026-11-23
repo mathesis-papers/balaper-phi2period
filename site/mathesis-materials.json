@@ -1,0 +1,11 @@
+{
+  "schema": "mathesis.materials.v1",
+  "work": "balaper-phi2period",
+  "version": 2,
+  "repository_url": "https://github.com/mathesis-papers/balaper-phi2period",
+  "site_url": "https://papers.trureturing.org/balaper-phi2period/",
+  "doi": null,
+  "reading": {},
+  "slides": [],
+  "visualizations": []
+}

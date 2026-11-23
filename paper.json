@@ -1,0 +1,66 @@
+{
+  "files": {
+    "pdf": {
+      "bytes": 126116,
+      "matches_public": true,
+      "path": "paper.pdf",
+      "public_sha256": "c9e292eef9fc3dd889bcdfa2d9d1098d692fbfde6b231fe606c785a6e4f6d80f",
+      "sha256": "c9e292eef9fc3dd889bcdfa2d9d1098d692fbfde6b231fe606c785a6e4f6d80f"
+    },
+    "source": {
+      "bytes": 29708,
+      "matches_public": true,
+      "path": "source.archive",
+      "public_sha256": "99d2be4066404f3c97833b22786ba968308c81106223918eb0984021a8fc9889",
+      "sha256": "99d2be4066404f3c97833b22786ba968308c81106223918eb0984021a8fc9889"
+    }
+  },
+  "source_identity": "Mathesis public projection",
+  "work": {
+    "abstract_text": "We give an alternative proof and an extension of Lien-Hung Su's theorem (31 October 2026, Theorem 3.2 and Corollary 3.3, doi:10.5281/zenodo.23835577) resolving Peter Bala's conjecture in OEIS A281180, Comments, revision 86, signed 18 February 2026, and its four companion conjectures. The proof begins with a uniform operator identity for every integral polynomial vector field P(z)d/dz with P(0)=1. For the quadratic flows S'=C^a, C'=S C^(a-1), we extend the eventual period phi(m)^2/2 to every integer a>=1, every integral polynomial observable at even derivative indices, and every m>=3. We give explicit starting indices, prove residue-row and derivative identities from the neighboring entries, and supply exact finite-matrix certificates for the source examples.",
+    "authors": [
+      {
+        "affiliation": "ChronoAI Pte Ltd, Singapore",
+        "name": "Haobo Ma"
+      },
+      {
+        "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+        "name": "Wenlin Zhang"
+      }
+    ],
+    "concept_doi": null,
+    "current_version": 2,
+    "doi": null,
+    "lean_source": {
+      "revision": "92de86888730265f84e24d28bdb67546c543a966",
+      "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+    },
+    "license": "CC-BY-4.0",
+    "msc": [],
+    "pdf": {
+      "bytes": 126116,
+      "sha256": "c9e292eef9fc3dd889bcdfa2d9d1098d692fbfde6b231fe606c785a6e4f6d80f",
+      "url": "/api/v1/collected-papers/balaper-phi2period/files/pdf?version=2"
+    },
+    "previous_version": null,
+    "publication": "public",
+    "published_on": "2026-11-23T15:37:53.377516811Z",
+    "record": "balaper-phi2period",
+    "repository_name": "balaper-phi2period",
+    "source": {
+      "bytes": 29708,
+      "sha256": "99d2be4066404f3c97833b22786ba968308c81106223918eb0984021a8fc9889",
+      "url": "/api/v1/collected-papers/balaper-phi2period/files/source?version=2"
+    },
+    "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+    "versions": [
+      {
+        "previous_version": null,
+        "published_on": "2026-11-23T15:37:53.377516811Z",
+        "revision": "2",
+        "version": 2
+      }
+    ],
+    "work": "balaper-phi2period"
+  }
+}
